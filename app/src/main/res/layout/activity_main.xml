@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jeso.cetis1084av_app001.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="91dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtView"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="30"
+        android:layout_marginTop="42dp"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Teclea lo que quieras"
+        />
+
+    <Button
+        android:text="Presiona Aqui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
